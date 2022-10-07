@@ -11,12 +11,11 @@
   box-shadow: -1px 10px 16px -10px $primary-color !important;
   border-radius: 15px !important;
   &:focus {
-      outline: none !important;
+    outline: none !important;
   }
 }
-
 .reactour__dot {
-  background-color: rgba($primary-color,0.2) !important;
+  background-color: rgba($primary-color, 0.2) !important;
   border: none !important;
   width: 6px !important;
   height: 6px !important;
@@ -24,14 +23,12 @@
     outline: none !important;
   }
 }
-
 .reactour__dot--is-active {
   background-color: $primary-color !important;
   border: 3px double $primary-light !important;
   width: 10px !important;
   height: 10px !important;
 }
-
 .reactour__close {
   top: 15px !important;
   right: 15px !important;

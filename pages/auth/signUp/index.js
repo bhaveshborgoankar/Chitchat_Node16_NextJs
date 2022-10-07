@@ -43,9 +43,9 @@ const Auth_SignUp = (props) => {
                                         </div>
                                         <div className="form-group">
                                             <div className="rememberchk">
-                                                <div className="input-text form-check pl-0">
+                                                <div className="input-text form-check ps-0">
                                                     <input id="gridCheck1" type="checkbox" />
-                                                    <label className="form-check-label ml-2 mr-auto" htmlFor="gridCheck1">Remember Me.</label>
+                                                    <label className="form-check-label ms-2 me-auto" htmlFor="gridCheck1">Remember Me.</label>
                                                     <h6>Forgot Password?</h6>
                                                 </div>
                                             </div>

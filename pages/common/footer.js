@@ -139,14 +139,14 @@ const Footer = (props) => {
 								</div>
 								<div className="footer-contant">
 									<div className="footer-btn">
-										<a className="btn active" href="https://www.apple.com/in/itunes/">
+										<a className="btn active" href="https://www.apple.com/in/itunes/" target="_blank">
 											<i className="fa fa-apple"></i>
 											<div>
 												<h6>Available on the</h6>
 												<h4>App store</h4>
 											</div>
 										</a>
-										<a className="btn" href="https://play.google.com/store">
+										<a className="btn" href="https://play.google.com/store" target="_blank">
 											<i className="fa fa-play"></i>
 											<div>
 												<h6>Available on the</h6>
@@ -175,10 +175,10 @@ const Footer = (props) => {
 			<Container className="copyright-footer">
 				<Row className="copyright">
 					<Col md="6" sm="12">
-						<p className="footer-left">© 2021 Chitchat. All Rights Reserved</p>
+						<p className="footer-left">© 2022 Chitchat. All Rights Reserved</p>
 					</Col>
 					<Col md="6" sm="12" className="links_horizontal">
-						<p className="text-right">
+						<p className="text-end">
 							Made with <span>&hearts; </span>By Theme Pixelstrap
 						</p>
 					</Col>

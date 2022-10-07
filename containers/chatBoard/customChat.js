@@ -100,9 +100,9 @@ const CustomChat = (props) => {
               </div>
             </form>
             <div className='col-7'>
-              <div className='media left'>
+              <div className='d-flex left'>
                 <div
-                  className='media-left mr-3'
+                  className='media-left me-3'
                   onClick={() => profileSideBarToggle(!profileToggle)}
                 >
                   <div
@@ -115,7 +115,7 @@ const CustomChat = (props) => {
                     }}
                   ></div>
                 </div>
-                <div className='media-body'>
+                <div className='flex-grow-1'>
                   <h5>{selectedUser.name}</h5>
                   <div
                     className={`badge ${selectedUser.onlineStatus === 'online'
@@ -165,7 +165,7 @@ const CustomChat = (props) => {
               </div>
             </div>
             <div className='col'>
-              <ul className='calls text-right'>
+              <ul className='calls text-end'>
                 <li>
                   <Tooltip
                     title='Quick Audio Call'
@@ -359,7 +359,7 @@ const CustomChat = (props) => {
                             style={{ display: 'none' }}
                           />
                         </div>
-                        <div className='media videocall-details'>
+                        <div className='d-flex videocall-details'>
                           <div className='usersprof'>
                             <div
                               className='profile'
@@ -394,7 +394,7 @@ const CustomChat = (props) => {
                               />
                             </div>
                           </div>
-                          <div className='media-body'>
+                          <div className='flex-grow-1'>
                             <h5>Josephin water</h5>
                             <h6>America ,California</h6>
                           </div>
@@ -475,7 +475,6 @@ const CustomChat = (props) => {
                     >
                       <DropdownToggle
                         tag='button'
-                        data-toggle='dropdown'
                         aria-expanded={props.quickAction}
                         className='icon-btn btn-light bg-transparent button-effect outside'
                       >
@@ -554,7 +553,7 @@ const CustomChat = (props) => {
                 Delete
               </Button>
               <Button
-                className='button-effect ml-2'
+                className='button-effect ms-2'
                 size='sm'
                 color='primary'
                 onClick={() => setDeleteModal(!deleteModal)}
@@ -583,7 +582,7 @@ const CustomChat = (props) => {
                 Block
               </Button>
               <Button
-                className='button-effect ml-2'
+                className='button-effect ms-2'
                 size='sm'
                 color='primary'
                 onClick={() => setBlockModal(!blockModal)}
@@ -598,9 +597,9 @@ const CustomChat = (props) => {
             {selectedUser.id === 1 ? (
               <>
                 <li className='replies'>
-                  <div className='media'>
+                  <div className='d-flex'>
                     <div
-                      className='profile mr-4'
+                      className='profile me-4'
                       style={{
                         backgroundImage: `url('assets/images/contact/2.jpg')`,
                         backgroundSize: 'cover',
@@ -615,7 +614,7 @@ const CustomChat = (props) => {
                         style={{ display: 'none' }}
                       />
                     </div>
-                    <div className='media-body'>
+                    <div className='flex-grow-1'>
                       <div className='contact-name'>
                         <h5>Jony Lynetin</h5>
                         <h6>01:40 AM</h6>
@@ -628,7 +627,7 @@ const CustomChat = (props) => {
                               {' '}
                               your personal assistant to help you &#128512;{' '}
                             </h5>
-                            <div className='badge badge-success sm ml-2'> R</div>
+                            <div className='badge badge-success sm ms-2'> R</div>
                           </li>
                         </ul>
                       </div>
@@ -636,9 +635,9 @@ const CustomChat = (props) => {
                   </div>
                 </li>
                 <li className='sent'>
-                  <div className='media'>
+                  <div className='d-flex'>
                     <div
-                      className='profile mr-4'
+                      className='profile me-4'
                       style={{
                         backgroundImage: `url('assets/images/contact/1.jpg')`,
                         backgroundSize: 'cover',
@@ -653,7 +652,7 @@ const CustomChat = (props) => {
                         style={{ display: 'none' }}
                       />
                     </div>
-                    <div className='media-body'>
+                    <div className='flex-grow-1'>
                       <div className='contact-name'>
                         <h5>Josephin water</h5>
                         <h6>01:35 AM</h6>
@@ -666,7 +665,7 @@ const CustomChat = (props) => {
                           </li>
                           <li className='msg-setting-main'>
                             <h5> it should from elite auther &#128519;</h5>
-                            <div className='badge badge-success sm ml-2'> R</div>
+                            <div className='badge badge-success sm ms-2'> R</div>
                           </li>
                         </ul>
                       </div>
@@ -674,9 +673,9 @@ const CustomChat = (props) => {
                   </div>
                 </li>
                 <li className='replies'>
-                  <div className='media'>
+                  <div className='d-flex'>
                     <div
-                      className='profile mr-4'
+                      className='profile me-4'
                       style={{
                         backgroundImage: `url('assets/images/contact/2.jpg')`,
                         backgroundSize: 'cover',
@@ -691,7 +690,7 @@ const CustomChat = (props) => {
                         style={{ display: 'none' }}
                       />
                     </div>
-                    <div className='media-body'>
+                    <div className='flex-grow-1'>
                       <div className='contact-name'>
                         <h5>Jony Lynetin</h5>
                         <h6>01:40 AM</h6>
@@ -701,7 +700,7 @@ const CustomChat = (props) => {
                               Sure, chitchat is best theme for chating project,
                               you can it check
                               <a
-                                className='ml-1'
+                                className='ms-1'
                                 href='https://themeforest.net/user/pixelstrap/portfolio'
                                 target='_blank'
                               >
@@ -726,7 +725,7 @@ const CustomChat = (props) => {
                                 </a>
                               </div>
                             </div>
-                            <div className='badge badge-dark sm ml-2'> D</div>
+                            <div className='badge badge-dark sm ms-2'> D</div>
                           </li>
                         </ul>
                       </div>
@@ -734,9 +733,9 @@ const CustomChat = (props) => {
                   </div>
                 </li>
                 <li className='sent'>
-                  <div className='media'>
+                  <div className='d-flex'>
                     <div
-                      className='profile mr-4'
+                      className='profile me-4'
                       style={{
                         backgroundImage: `url('assets/images/contact/1.jpg')`,
                         backgroundSize: 'cover',
@@ -751,7 +750,7 @@ const CustomChat = (props) => {
                         style={{ display: 'none' }}
                       />
                     </div>
-                    <div className='media-body'>
+                    <div className='flex-grow-1'>
                       <div className='contact-name'>
                         <h5>Josephin water</h5>
                         <h6>01:42 AM</h6>
@@ -809,12 +808,12 @@ const CustomChat = (props) => {
                             </ul>
                             <div className='refresh-block'>
                               <div
-                                className='badge badge-outline-primary refresh sm ml-2'
+                                className='badge badge-outline-primary refresh sm ms-2'
                                 onClick={(e) => refreshCw(e)}
                               >
                                 <RotateCw />
                               </div>
-                              <div className='badge badge-danger sm ml-2'>F</div>
+                              <div className='badge badge-danger sm ms-2'>F</div>
                             </div>
                           </li>
                         </ul>
@@ -837,9 +836,9 @@ const CustomChat = (props) => {
                       }`}
                     key={index}
                   >
-                    <div className='media'>
+                    <div className='d-flex'>
                       <div
-                        className='profile mr-4'
+                        className='profile me-4'
                         style={{
                           backgroundImage: `url('assets/images/${participators.thumb}')`,
                           backgroundSize: 'cover',
@@ -854,7 +853,7 @@ const CustomChat = (props) => {
                           style={{ display: 'none' }}
                         />
                       </div>
-                      <div className='media-body'>
+                      <div className='flex-grow-1'>
                         <div className='contact-name'>
                           <h5>{participators.name}</h5>
                           <h6>{item.time}</h6>
@@ -863,7 +862,7 @@ const CustomChat = (props) => {
                               {item.text.length ? <h5> {item.text}</h5> : ''}
                               {item.stickers ? <img src={item.stickers} alt='' /> : ''}
                               {item.read ? (
-                                <div className='badge badge-success sm ml-2'>
+                                <div className='badge badge-success sm ms-2'>
                                   {' '}
                                   R
                                 </div>
@@ -919,9 +918,9 @@ const CustomChat = (props) => {
               className='sent last typing-m'
               style={isTyeping ? { display: 'block' } : { display: 'none' }}
             >
-              <div className='media'>
+              <div className='d-flex'>
                 <div
-                  className='profile mr-4'
+                  className='profile me-4'
                   style={{
                     backgroundImage: `url('assets/images/${selectedUser.thumb}')`,
                     backgroundSize: 'cover',
@@ -930,7 +929,7 @@ const CustomChat = (props) => {
                   }}
                 >
                 </div>
-                <div className='media-body'>
+                <div className='flex-grow-1'>
                   <div className='contact-name'>
                     <h5>{selectedUser.name}</h5>
                     <ul className='msg-box'>

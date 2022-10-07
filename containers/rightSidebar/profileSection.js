@@ -60,14 +60,14 @@ const ProfileSection = (props) => {
       <div className='custom-scroll right-sidebar'>
         <div className='contact-profile'>
           <div className='theme-title'>
-            <div className='media'>
+            <div className='d-flex'>
               <div>
                 <h2>Profile</h2>
                 <h4>Personal Information</h4>
               </div>
-              <div className='media-body text-right'>
+              <div className='flex-grow-1 text-end'>
                 <a
-                  className='icon-btn btn-outline-light btn-sm close-profile ml-3'
+                  className='icon-btn btn-outline-light btn-sm close-profile ms-3'
                   href='#'
                   onClick={() => closeProfileSidebar(profileToggle)}
                 >
@@ -133,7 +133,7 @@ const ProfileSection = (props) => {
             >
               <h5 className='block-title'>
                 Shared Document
-                <label className='badge badge-success sm ml-2'>3</label>
+                <label className='badge badge-success sm ms-2'>3</label>
               </h5>
               <div
                 className={`block-content ${collapseShow.shareDocument ? '' : 'd-none'}`}
@@ -172,14 +172,14 @@ const ProfileSection = (props) => {
           >
             <h5 className='block-title'>
               Shared Media
-              <label className='badge badge-primary sm ml-2'>2</label>
+              <label className='badge badge-primary sm ms-2'>2</label>
             </h5>
             <div
               className={`block-content ${collapseShow.shareMedia ? '' : 'd-none'}`}
             >
               <div className='row share-media zoom-gallery'>
                 <div className='col-12'>
-                  <h6 className='mb-2'>22/03/2019</h6>
+                  <h6 className='mb-2'>22/03/2022</h6>
                 </div>
                 <div className='col-4 isotopeSelector filter'>
                   <div className='media-big'>
@@ -344,7 +344,7 @@ const ProfileSection = (props) => {
                   />
                 )}
                 <div className='col-12'>
-                  <h6 className='mb-2 mt-2'>20/04/2019</h6>
+                  <h6 className='mb-2 mt-2'>20/04/2022</h6>
                 </div>
                 <div className='col-4'>
                   <div className='media-small isotopeSelector filter'>
@@ -481,7 +481,7 @@ const ProfileSection = (props) => {
           >
             <h5 className='block-title'>
               Starred Messages
-              <label className='badge badge-outline-dark sm ml-2'>2</label>
+              <label className='badge badge-outline-dark sm ms-2'>2</label>
             </h5>
             <div
               className={`block-content ${collapseShow.starredMessage ? '' : 'd-none'} `}
@@ -489,9 +489,9 @@ const ProfileSection = (props) => {
               <div className='contact-chat p-0 m-0'>
                 <ul className='str-msg'>
                   <li>
-                    <div className='media'>
+                    <div className='d-flex'>
                       <div
-                        className='profile mr-4'
+                        className='profile me-4'
                         style={{
                           backgroundImage: `url('/assets/images/contact/2.jpg')`,
                           backgroundSize: 'cover',
@@ -506,7 +506,7 @@ const ProfileSection = (props) => {
                           style={{ display: 'none' }}
                         />
                       </div>
-                      <div className='media-body'>
+                      <div className='flex-grow-1'>
                         <div className='contact-name'>
                           <h5>Alan josheph</h5>
                           <h6>01:35 AM</h6>
@@ -520,9 +520,9 @@ const ProfileSection = (props) => {
                     </div>
                   </li>
                   <li>
-                    <div className='media'>
+                    <div className='d-flex'>
                       <div
-                        className='profile mr-4'
+                        className='profile me-4'
                         style={{
                           backgroundImage: `url('/assets/images/contact/3.jpg')`,
                           backgroundSize: 'cover',
@@ -537,7 +537,7 @@ const ProfileSection = (props) => {
                           style={{ display: 'none' }}
                         />
                       </div>
-                      <div className='media-body'>
+                      <div className='flex-grow-1'>
                         <div className='contact-name'>
                           <h5>Josephin water</h5>
                           <h6>01:35 AM</h6>
@@ -571,7 +571,7 @@ const ProfileSection = (props) => {
           >
             <h5 className='block-title'>
               Common groups
-              <label className='badge badge-outline-dark sm ml-2'>3</label>
+              <label className='badge badge-outline-dark sm ms-2'>3</label>
             </h5>
             <div
               className={`block-content ${collapseShow.commonGroups ? '' : 'd-none'}`}
@@ -660,19 +660,19 @@ const ProfileSection = (props) => {
         </div>
         <div className='status status-switch'>
           <ul>
-            <li className='pl-0'>
+            <li className='ps-0'>
               <Label className="switch-green">
                 <Input type="checkbox" /><span className="switch-state" ></span>
               </Label>
               <Label className='label-right'>Block</Label>
             </li>
-            <li className='pl-0'>
+            <li className='ps-0'>
               <Label className="switch-green">
                 <Input type="checkbox" /><span className="switch-state" ></span>
               </Label>
               <Label className='label-right'>Mute</Label>
             </li>
-            <li className='pl-0'>
+            <li className='ps-0'>
               <Label className="switch-green">
                 <Input type="checkbox" /><span className="switch-state" ></span>
               </Label>

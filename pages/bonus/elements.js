@@ -1847,7 +1847,7 @@ const Elements = (props) => {
 															display: "block",
 														}}
 													></div>
-													<div className="media videocall-details">
+													<div className="d-flex videocall-details">
 														<div className="usersprof">
 															<div
 																className="profile"

@@ -15,12 +15,12 @@ const DocumentSection = (props) => {
       id='document'
     >
       <div className='theme-title'>
-        <div className='media'>
+        <div className='d-flex'>
           <div>
             <h2>Document</h2>
             <h4>List of document</h4>
           </div>
-          <div className='media-body text-right'>
+          <div className='flex-grow-1 text-end'>
             {' '}
             <a
               className='icon-btn btn-outline-light btn-sm m-r-15 search'
@@ -61,7 +61,7 @@ const DocumentSection = (props) => {
       <ul className='chat-main'>
         <li>
           <div className='chat-box'>
-            <div className='media'>
+            <div className='d-flex'>
               <div className='profile'>
                 <a
                   className='icon-btn btn-outline-danger btn-xl pull-right rouded15'
@@ -72,9 +72,9 @@ const DocumentSection = (props) => {
               </div>
               <div className='details'>
                 <h5>messenger.html</h5>
-                <h6>2, octomber 2019</h6>
+                <h6>2, octomber 2022</h6>
               </div>
-              <div className='media-body'>
+              <div className='flex-grow-1'>
                 <a
                   className='icon-btn btn-outline-light btn-sm pull-right'
                   href='#'
@@ -87,7 +87,7 @@ const DocumentSection = (props) => {
         </li>
         <li>
           <div className='chat-box'>
-            <div className='media'>
+            <div className='d-flex'>
               <div className='profile'>
                 <a
                   className='icon-btn btn-outline-success btn-xl pull-right rouded15'
@@ -98,9 +98,9 @@ const DocumentSection = (props) => {
               </div>
               <div className='details'>
                 <h5>chapter1.MP4</h5>
-                <h6>3, Octomber 2019</h6>
+                <h6>3, Octomber 2022</h6>
               </div>
-              <div className='media-body'>
+              <div className='flex-grow-1'>
                 <a
                   className='icon-btn btn-outline-light btn-sm pull-right'
                   href='assets/doc/chapter1.MP4'
@@ -114,7 +114,7 @@ const DocumentSection = (props) => {
         </li>
         <li>
           <div className='chat-box'>
-            <div className='media'>
+            <div className='d-flex'>
               <div className='profile'>
                 <a
                   className='icon-btn btn-outline-primary btn-xl pull-right rouded15'
@@ -125,9 +125,9 @@ const DocumentSection = (props) => {
               </div>
               <div className='details'>
                 <h5>salary.xlsx</h5>
-                <h6>5, Octomber 2019</h6>
+                <h6>5, Octomber 2022</h6>
               </div>
-              <div className='media-body'>
+              <div className='flex-grow-1'>
                 <a
                   className='icon-btn btn-outline-light btn-sm pull-right'
                   href='assets/doc/salary.xlsx'
@@ -141,7 +141,7 @@ const DocumentSection = (props) => {
         </li>
         <li>
           <div className='chat-box'>
-            <div className='media'>
+            <div className='d-flex'>
               <div className='profile'>
                 <a
                   className='icon-btn btn-outline-warning btn-xl pull-right rouded15'
@@ -152,9 +152,9 @@ const DocumentSection = (props) => {
               </div>
               <div className='details'>
                 <h5>document.pdf</h5>
-                <h6>7, Octomber 2019</h6>
+                <h6>7, Octomber 2022</h6>
               </div>
-              <div className='media-body'>
+              <div className='flex-grow-1'>
                 <a
                   className='icon-btn btn-outline-light btn-sm pull-right'
                   href='assets/doc/document.pdf'
@@ -168,7 +168,7 @@ const DocumentSection = (props) => {
         </li>
         <li>
           <div className='chat-box'>
-            <div className='media'>
+            <div className='d-flex'>
               <div className='profile'>
                 <a
                   className='icon-btn btn-outline-danger btn-xl pull-right rouded15'
@@ -179,9 +179,9 @@ const DocumentSection = (props) => {
               </div>
               <div className='details'>
                 <h5>details.txt</h5>
-                <h6>20, Octomber 2019</h6>
+                <h6>20, Octomber 2022</h6>
               </div>
-              <div className='media-body'>
+              <div className='flex-grow-1'>
                 <a
                   className='icon-btn btn-outline-light btn-sm pull-right'
                   href='assets/doc/details.txt'
@@ -195,7 +195,7 @@ const DocumentSection = (props) => {
         </li>
         <li>
           <div className='chat-box'>
-            <div className='media'>
+            <div className='d-flex'>
               <div className='profile'>
                 <a
                   className='icon-btn btn-outline-success btn-xl pull-right rouded15'
@@ -206,9 +206,9 @@ const DocumentSection = (props) => {
               </div>
               <div className='details'>
                 <h5>messenger.html</h5>
-                <h6>2, octomber 2019</h6>
+                <h6>2, octomber 2022</h6>
               </div>
-              <div className='media-body'>
+              <div className='flex-grow-1'>
                 <a
                   className='icon-btn btn-outline-light btn-sm pull-right'
                   href='/'

@@ -59,7 +59,7 @@ const Faq = (props) => {
 				<Container>
 					<Row className="faq-block">
 						<Col sm="12">
-							<div className="media">
+							<div className="d-flex">
 								<div>
 									<h2>Frequently Asked Questions</h2>
 									<p>
@@ -67,9 +67,9 @@ const Faq = (props) => {
 										inquiry fromt tahe submit box.
 									</p>
 								</div>
-								<div className="media-body">
+								<div className="flex-grow-1">
 									<a
-										className="icon-btn btn-outline-primary btn-sm search contact-search float-right"
+										className="icon-btn btn-outline-primary btn-sm search contact-search float-end"
 										href="#"
 									>
 										<Search onClick={() => SeacrhResposive(responsivesearch)} />
@@ -101,8 +101,6 @@ const Faq = (props) => {
 											<button
 												className="btn-link"
 												type="button"
-												data-toggle="collapse"
-												data-target="#headingOne"
 												aria-controls="headingOne"
 												aria-expanded={isOpen1}
 												onClick={toggle1}
@@ -143,8 +141,6 @@ const Faq = (props) => {
 											<button
 												className="btn-link collapsed"
 												type="button"
-												data-toggle="collapse"
-												data-target="#headingTwo"
 												aria-controls="headingTwo"
 												aria-expanded={isOpen2}
 												onClick={toggle2}
@@ -185,8 +181,6 @@ const Faq = (props) => {
 											<button
 												className="btn-link collapsed"
 												type="button"
-												data-toggle="collapse"
-												data-target="#headingThree"
 												aria-controls="headingThree"
 												aria-expanded={isOpen3}
 												onClick={toggle3}
@@ -227,8 +221,6 @@ const Faq = (props) => {
 											<button
 												className="btn-link collapsed"
 												type="button"
-												data-toggle="collapse"
-												data-target="#headingFour"
 												aria-controls="headingFour"
 												aria-expanded={isOpen4}
 												onClick={toggle4}
@@ -269,8 +261,6 @@ const Faq = (props) => {
 											<button
 												className="btn-link collapsed"
 												type="button"
-												data-toggle="collapse"
-												data-target="#headingFive"
 												aria-controls="headingFive"
 												aria-expanded={isOpen5}
 												onClick={toggle5}
@@ -311,8 +301,6 @@ const Faq = (props) => {
 											<button
 												className="btn-link collapsed"
 												type="button"
-												data-toggle="collapse"
-												data-target="#headingSix"
 												aria-controls="headingSix"
 												aria-expanded={isOpen6}
 												onClick={toggle6}

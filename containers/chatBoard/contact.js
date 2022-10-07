@@ -23,9 +23,9 @@ const Contact = () => {
                   <div className="social-info-group">
                     <ul className="integratin mt-0">
                       <li>
-                        <div className="media">
+                        <div className="d-flex">
                           <div className="media-left"><a className="fb" href="https://www.facebook.com/login" target="_blank">
-                              <i className="fa fa-facebook mr-1"></i>
+                              <i className="fa fa-facebook me-1"></i>
                               <h5> Facebook   </h5></a></div>
                           <div className="media-right">
                             <div className="profile bg-size" style={{ backgroundImage: `url('assets/images/contact/1.jpg')`,backgroundSize:"cover",backgroundPosition:"center",display:"block" }}>
@@ -34,9 +34,9 @@ const Contact = () => {
                         </div>
                       </li>
                       <li>
-                        <div className="media">
+                        <div className="d-flex">
                           <div className="media-left"><a className="twi" href="https://twitter.com/login" target="_blank">
-                            <i className="fa fa-twitter mr-1"></i>
+                            <i className="fa fa-twitter me-1"></i>
                               <h5> twitter   </h5></a></div>
                           <div className="media-right">
                             <div className="profile bg-size" style={{ backgroundImage: `url('assets/images/contact/3.jpg')`,backgroundSize:"cover",backgroundPosition:"center",display:"block" }}>
@@ -45,9 +45,9 @@ const Contact = () => {
                         </div>
                       </li>
                       <li>
-                        <div className="media">
+                        <div className="d-flex">
                           <div className="media-left"><a className="ggl" href="https://accounts.google.com/signin/v2/identifier?service=mail&amp;passive=true&amp;rm=false&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ss=1&amp;scc=1&amp;ltmpl=default&amp;ltmplcache=2&amp;emr=1&amp;osid=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin" target="_blank">
-                            <i className="fa fa-google mr-1"></i>
+                            <i className="fa fa-google me-1"></i>
                               <h5>google   </h5></a></div>
                           <div className="media-right">
                             <div className="profile bg-size" style={{ backgroundImage: `url('assets/images/contact/2.jpg')`,backgroundSize:"cover",backgroundPosition:"center",display:"block" }}>

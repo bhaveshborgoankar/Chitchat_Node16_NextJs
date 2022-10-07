@@ -32,7 +32,7 @@ const PricePlan = () => {
   };
   return (
     <div>
-      <section className='section-py-space' id='price'>
+      <section className='section-py-space pb-0' id='price'>
         <Container fluid={true}>
           <Row>
             <Col sm='12'>
@@ -147,7 +147,7 @@ const PricePlan = () => {
                       </div>
                       <ul className='avb-price'>
                         <li>
-                          <i className='fa fa-check'></i>All Features is
+                          <i className='fa fa-check'></i>Common Feature is
                           Avalible
                         </li>
                         <li>
@@ -155,8 +155,7 @@ const PricePlan = () => {
                           Full-screen
                         </li>
                         <li>
-                          <i className='fa fa-check'></i>24/7 phone and email
-                          support
+                          <i className='fa fa-check'></i>Try for free, Forever!
                         </li>
                       </ul>
                     </div>

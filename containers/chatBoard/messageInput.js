@@ -123,9 +123,8 @@ const MessageInput = (props) => {
         >
           <DropdownToggle
             tag='button'
-            data-toggle='dropdown'
             aria-expanded={sticker}
-            className={`icon-btn btn-outline-primary button-effect mr-3 toggle-sticker outside ${sticker ? 'active' : ''
+            className={`icon-btn btn-outline-primary button-effect me-3 toggle-sticker outside ${sticker ? 'active' : ''
               }`}
           >
             <svg
@@ -191,15 +190,13 @@ const MessageInput = (props) => {
             </div>
           </div>
         </Dropdown>
-        <div className='dot-btn dot-primary mr-3'>
+        <div className='dot-btn dot-primary me-3'>
           <Dropdown
             isOpen={emoji}
             toggle={() => setEmoji((prevState) => !prevState)}
           >
             <DropdownToggle
               tag='button'
-              // role='button'
-              data-toggle='dropdown'
               aria-expanded={emoji}
               className={`icon-btn btn-outline-primary button-effect toggle-emoji ${emoji ? 'active' : ''
                 }`}
@@ -237,11 +234,10 @@ const MessageInput = (props) => {
           >
             <DropdownToggle
               tag='button'
-              data-toggle='dropdown'
               aria-expanded={contactpoll}
-              className='icon-btn btn-outline-primary mr-4 outside'
+              className='icon-btn btn-outline-primary me-4 outside'
             >
-              {/* <a className='icon-btn btn-outline-primary mr-4 outside' href='#'> */}
+              {/* <a className='icon-btn btn-outline-primary me-4 outside' href='#'> */}
               <i className='fa fa-plus'></i>
               {/* </a> */}
             </DropdownToggle>
@@ -268,8 +264,6 @@ const MessageInput = (props) => {
                 </li>
                 <li>
                   <a
-                    data-toggle='modal'
-                    data-target='#snippetModal'
                     onClick={() => toggleSnippetModal()}
                   >
                     <Code />
@@ -296,8 +290,6 @@ const MessageInput = (props) => {
                 </li>
                 <li>
                   <a
-                    data-toggle='modal'
-                    data-target='#pollModal'
                     onClick={() => togglePollModal()}
                   >
                     <BarChart2 />
@@ -332,7 +324,7 @@ const MessageInput = (props) => {
                       />
                     </div>
                     <div className='form-group'>
-                      <select className='mb-0'>
+                      <select className='mb-0 form-select'>
                         <option>ebnf</option>
                         <option>c++</option>
                         <option>diff</option>
@@ -352,7 +344,7 @@ const MessageInput = (props) => {
                     <div className='form-group mb-0'>
                       <div className='btn-snipate'>
                         <a
-                          className='btn btn-danger button-effect btn-sm mr-3'
+                          className='btn btn-danger button-effect btn-sm me-3'
                           href='#'
                           onClick={toggleSnippetModal}
                         >
@@ -460,7 +452,7 @@ const MessageInput = (props) => {
           onChange={(e) => handleMessageChange(e.target.value)}
         />
         <a
-          className='icon-btn btn-outline-primary button-effect mr-3 ml-3'
+          className='icon-btn btn-outline-primary button-effect mx-3'
           href='#'
         >
           <Mic />

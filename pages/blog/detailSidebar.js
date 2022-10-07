@@ -41,7 +41,7 @@ const DetailSidebar = (props) => {
 										</h2>
 										<div className="post-social">
 											<ul>
-												<li>25 January 2021</li>
+												<li>25 January 2022</li>
 												<li>
 													<i className="fa fa-user"></i>Admin
 												</li>
@@ -146,16 +146,16 @@ const DetailSidebar = (props) => {
 										<h3>Comments</h3>
 										<ul className="comment-section">
 											<li>
-												<div className="media">
+												<div className="d-flex">
 													<img
 														src="../assets/images/avtar/3.jpg"
 														alt="Generic placeholder image"
 													/>
-													<div className="media-body">
+													<div className="flex-grow-1">
 														<h6>Josephin water </h6>
 														<span>
-															( 11 Jannuary 2018 at 1:30AM ){" "}
-															<a className="pl-2" href="#">
+															( 11 Jannuary 2022 at 1:30AM ){" "}
+															<a className="ps-2" href="#">
 																reply
 															</a>
 														</span>
@@ -173,16 +173,16 @@ const DetailSidebar = (props) => {
 												</div>
 											</li>
 											<li>
-												<div className="media">
+												<div className="d-flex">
 													<img
 														src="../assets/images/avtar/1.jpg"
 														alt="Generic placeholder image"
 													/>
-													<div className="media-body">
+													<div className="flex-grow-1">
 														<h6>Josephin water </h6>
 														<span>
-															( 12 Jannuary 2018 at 1:30AM ){" "}
-															<a className="pl-2" href="#">
+															( 12 Jannuary 2022 at 1:30AM ){" "}
+															<a className="ps-2" href="#">
 																reply
 															</a>
 														</span>
@@ -200,16 +200,16 @@ const DetailSidebar = (props) => {
 												</div>
 											</li>
 											<li className="replay">
-												<div className="media">
+												<div className="d-flex">
 													<img
 														src="../assets/images/avtar/1.jpg"
 														alt="Generic placeholder image"
 													/>
-													<div className="media-body">
+													<div className="flex-grow-1">
 														<h6>Josephin water </h6>
 														<span>
-															( 12 Jannuary 2018 at 1:30AM ){" "}
-															<a className="pl-2" href="#">
+															( 12 Jannuary 2022 at 1:30AM ){" "}
+															<a className="ps-2" href="#">
 																reply
 															</a>
 														</span>
@@ -227,16 +227,16 @@ const DetailSidebar = (props) => {
 												</div>
 												<ul>
 													<li className="replay">
-														<div className="media">
+														<div className="d-flex">
 															<img
 																src="../assets/images/avtar/1.jpg"
 																alt="Generic placeholder image"
 															/>
-															<div className="media-body">
+															<div className="flex-grow-1">
 																<h6>Josephin water </h6>
 																<span>
-																	( 12 Jannuary 2018 at 1:30AM ){" "}
-																	<a className="pl-2" href="#">
+																	( 12 Jannuary 2022 at 1:30AM ){" "}
+																	<a className="ps-2" href="#">
 																		reply
 																	</a>
 																</span>
@@ -257,16 +257,16 @@ const DetailSidebar = (props) => {
 												</ul>
 											</li>
 											<li>
-												<div className="media">
+												<div className="d-flex">
 													<img
 														src="../assets/images/avtar/3.jpg"
 														alt="Generic placeholder image"
 													/>
-													<div className="media-body">
+													<div className="flex-grow-1">
 														<h6>Josephin water </h6>
 														<span>
-															( 11 Jannuary 2018 at 1:30AM ){" "}
-															<a className="pl-2" href="#">
+															( 11 Jannuary 2022 at 1:30AM ){" "}
+															<a className="ps-2" href="#">
 																reply
 															</a>
 														</span>

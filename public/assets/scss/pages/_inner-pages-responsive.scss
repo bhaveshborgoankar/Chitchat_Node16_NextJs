@@ -1,12 +1,12 @@
-@media (max-width: 1367px){
+@media (max-width: 1367px) {
   // header //
   .header-inner {
     padding-bottom: 30px;
   }
-  .blog-page  {
-    .blog-sidebar  {
-      .blog-card  {
-        .blog-follow  {
+  .blog-page {
+    .blog-sidebar {
+      .blog-card {
+        .blog-follow {
           li {
             margin-right: 10px;
           }
@@ -15,11 +15,10 @@
     }
   }
 }
-
-@media (max-width:1199px){
+@media (max-width: 1199px) {
   // blog pages css //
   .blog-media {
-    >div {
+    > div {
       &:first-child {
         padding-bottom: 30px;
       }
@@ -29,8 +28,7 @@
   .counter-box-second {
     width: 165px;
     height: 165px;
-
-    .counter-box  {
+    .counter-box {
       .counter-icon {
         font-size: 30px;
       }
@@ -43,10 +41,9 @@
     }
   }
 }
-
-@media (max-width: 991px ){
+@media (max-width: 991px) {
   // blog pages //
-  .blog-detail-page  {
+  .blog-detail-page {
     .blog-commant {
       margin-top: 30px;
     }
@@ -54,10 +51,9 @@
       margin-top: 30px;
     }
   }
-
   // about main //
   .about-page {
-    .about-title  {
+    .about-title {
       h1 {
         margin-bottom: 15px;
       }
@@ -68,9 +64,10 @@
       }
     }
   }
-  .team .owl-nav  {
+  .team .owl-nav {
     top: -60px;
-    button.owl-prev ,button.owl-next{
+    button.owl-prev,
+    button.owl-next {
       height: 30px;
       width: 30px;
       &:before {
@@ -79,7 +76,7 @@
     }
   }
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
   // breadcrumb //
   .breadcrumb-main {
     .breadcrumb-content {
@@ -92,10 +89,9 @@
   }
   // blog-pages css //
   .blog-page {
-   
-    .blog-sidebar  {
+    .blog-sidebar {
       margin-top: 30px;
-    
+
       .blog-card {
         padding: 15px;
       }
@@ -110,43 +106,40 @@
     }
   }
   .left-blog {
-    .blog-sidebar  {
+    .blog-sidebar {
       margin-top: 0;
       margin-bottom: 30px;
     }
   }
-
   // faq css //
   .faq-block {
-    >div {
-      &:nth-child(n+3) {
+    > div {
+      &:nth-child(n + 3) {
         margin-top: 15px;
       }
     }
   }
-  .faq-section  {
-    .faq-search-box  {
-      .input-group  {
+  .faq-section {
+    .faq-search-box {
+      .input-group {
         .form-control {
           padding: 10px;
         }
       }
     }
   }
-
   // error section //
-  .error-main  {
+  .error-main {
     .error-contain {
       .error-btn {
         padding: 15px 25px;
       }
     }
   }
-
   // about //
-  .team  {
-    .team-content  {
-      .text-content  {
+  .team {
+    .team-content {
+      .text-content {
         h4 {
           margin-bottom: 10px;
         }
@@ -168,8 +161,7 @@
     }
   }
 }
-
-@media (max-width: 575px){
+@media (max-width: 575px) {
   .faq-block {
     .search-form {
       .form-group {
@@ -183,18 +175,14 @@
   .header-inner {
     padding-bottom: 20px;
   }
-
   // error section //
-  .error-main  {
-    .error-contain  {
+  .error-main {
+    .error-contain {
       .error-btn {
         padding: 12px 18px;
       }
     }
   }
-
-  
-
 }
 @media (max-width: 480px) {
   .faq-block {
@@ -207,7 +195,7 @@
     }
   }
   // about //
-  .team  {
+  .team {
     .team-content {
       display: unset;
       .text-content {
@@ -216,7 +204,7 @@
       }
     }
   }
-  .about-page  {
+  .about-page {
     .about-tab {
       display: block;
       text-align: center;
@@ -229,7 +217,7 @@
           }
         }
       }
-      .nav-pills  {
+      .nav-pills {
         .nav-link {
           padding: 0;
           font-weight: 600;
@@ -243,13 +231,12 @@
     }
   }
 }
-@media (max-width: 360px){
-
+@media (max-width: 360px) {
   // blog-pages css //
-  .blog-page  {
+  .blog-page {
     .blog-media {
-      .blog-right  {
-        ul  {
+      .blog-right {
+        ul {
           display: flex;
           li {
             display: block;
@@ -258,11 +245,10 @@
       }
     }
   }
-
   // about page //
-  .about-page  {
-    .about-tab  {
-      ul  {
+  .about-page {
+    .about-tab {
+      ul {
         li {
           &:last-child {
             margin-top: 10px;

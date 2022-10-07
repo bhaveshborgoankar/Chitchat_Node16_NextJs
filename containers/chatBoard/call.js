@@ -246,7 +246,7 @@ const Call = (props) => {
                             style={{ display: 'none' }}
                           />
                         </div>
-                        <div className='media videocall-details'>
+                        <div className='d-flex videocall-details'>
                           <div className='usersprof'>
                             <div
                               className='profile'
@@ -281,7 +281,7 @@ const Call = (props) => {
                               />
                             </div>
                           </div>
-                          <div className='media-body'>
+                          <div className='flex-grow-1'>
                             <h5>Josephin water</h5>
                             <h6>America ,California</h6>
                           </div>
@@ -347,7 +347,7 @@ const Call = (props) => {
                     onClick={(e) => handleacordion(dropResponse)}
                   >
                     Shared Document
-                    <label className='badge badge-success sm ml-2'>3</label>
+                    <label className='badge badge-success sm ms-2'>3</label>
                   </h5>
                   <div
                     className={`block-content ${dropResponse ? 'd-none' : ''}`}
@@ -376,9 +376,9 @@ const Call = (props) => {
           <div className='call-log-main custom-scroll'>
             <div className='coll-log-group'>
               <div className='log-content-left'>
-                <div className='media'>
+                <div className='d-flex'>
                   <PhoneIncoming />
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>incoming call </h5>
                   </div>
                 </div>
@@ -389,9 +389,9 @@ const Call = (props) => {
             </div>
             <div className='coll-log-group'>
               <div className='log-content-left'>
-                <div className='media'>
+                <div className='d-flex'>
                   <PhoneIncoming />
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>outgoing call</h5>
                   </div>
                 </div>
@@ -402,9 +402,9 @@ const Call = (props) => {
             </div>
             <div className='coll-log-group'>
               <div className='log-content-left'>
-                <div className='media'>
+                <div className='d-flex'>
                   <PhoneMissed />
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>missed call</h5>
                   </div>
                 </div>
@@ -415,9 +415,9 @@ const Call = (props) => {
             </div>
             <div className='coll-log-group'>
               <div className='log-content-left'>
-                <div className='media'>
+                <div className='d-flex'>
                   <PhoneMissed />
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>missed call</h5>
                   </div>
                 </div>
@@ -428,9 +428,9 @@ const Call = (props) => {
             </div>
             <div className='coll-log-group'>
               <div className='log-content-left'>
-                <div className='media'>
+                <div className='d-flex'>
                   <PhoneMissed />
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>missed call</h5>
                   </div>
                 </div>
@@ -441,9 +441,9 @@ const Call = (props) => {
             </div>
             <div className='coll-log-group'>
               <div className='log-content-left'>
-                <div className='media'>
+                <div className='d-flex'>
                   <PhoneMissed />
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>missed call</h5>
                   </div>
                 </div>
@@ -454,9 +454,9 @@ const Call = (props) => {
             </div>
             <div className='coll-log-group'>
               <div className='log-content-left'>
-                <div className='media'>
+                <div className='d-flex'>
                   <PhoneIncoming />
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>incoming call</h5>
                   </div>
                 </div>
@@ -467,9 +467,9 @@ const Call = (props) => {
             </div>
             <div className='coll-log-group'>
               <div className='log-content-left'>
-                <div className='media'>
+                <div className='d-flex'>
                   <PhoneIncoming />
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>incoming call</h5>
                   </div>
                 </div>

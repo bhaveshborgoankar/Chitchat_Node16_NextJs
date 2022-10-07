@@ -13,7 +13,7 @@ const Collaboration = () => {
 
 	return (
 		<div>
-			<section className="collaboration-main section-py-space">
+			<section className="collaboration-main section-py-space pb-0">
 				<Container fluid={true}>
 					<Row>
 						<Col sm="12">
@@ -40,7 +40,6 @@ const Collaboration = () => {
 										<a
 											className={`nav-link active`}
 											onClick={(e) => activeClass(e)}
-											data-toggle="pill"
 											href="#tab1"
 										>
 											<div className="tab-main">
@@ -58,7 +57,6 @@ const Collaboration = () => {
 										<a
 											className={`nav-link`}
 											onClick={(e) => activeClass(e)}
-											data-toggle="pill"
 											href="#tab2"
 										>
 											<div className="tab-main">
@@ -75,7 +73,6 @@ const Collaboration = () => {
 									<li className="nav-item">
 										<a
 											className="nav-link"
-											data-toggle="pill"
 											href="#tab3"
 											onClick={(e) => activeClass(e)}
 										>
@@ -93,7 +90,6 @@ const Collaboration = () => {
 									<li className="nav-item">
 										<a
 											className="nav-link"
-											data-toggle="pill"
 											href="#tab4"
 											onClick={(e) => activeClass(e)}
 										>

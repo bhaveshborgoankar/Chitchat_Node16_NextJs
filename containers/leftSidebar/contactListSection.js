@@ -15,12 +15,12 @@ const ContactListSection = (props) => {
 			id="contact-list"
 		>
 			<div className="theme-title">
-				<div className="media">
+				<div className="d-flex">
 					<div>
 						<h2>Contact</h2>
 						<h4>Start talking now</h4>
 					</div>
-					<div className="media-body text-right">
+					<div className="flex-grow-1 text-end">
 						{" "}
 						<a
 							className="icon-btn btn-outline-light btn-sm m-r-15 search"

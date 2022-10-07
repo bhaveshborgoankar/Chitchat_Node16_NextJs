@@ -43,66 +43,66 @@ const Sidebar = () => {
 					<h4>Recent Blog</h4>
 					<ul className="recent-blog">
 						<li>
-							<div className="media">
+							<div className="d-flex">
 								<img
 									className="img-fluid blur-up lazyload"
 									src="../assets/images/blog/small/1.jpg"
 									alt="Generic placeholder image"
 								/>
-								<div className="media-body align-self-center">
-									<h5>1 Dec 2020</h5>
+								<div className="flex-grow-1 align-self-center">
+									<h5>1 Dec 2022</h5>
 									<p>0 hits</p>
 								</div>
 							</div>
 						</li>
 						<li>
-							<div className="media">
+							<div className="d-flex">
 								<img
 									className="img-fluid blur-up lazyload"
 									src="../assets/images/blog/small/2.jpg"
 									alt="Generic placeholder image"
 								/>
-								<div className="media-body align-self-center">
-									<h5>2 Dec 2020</h5>
+								<div className="flex-grow-1 align-self-center">
+									<h5>2 Dec 2022</h5>
 									<p>0 hits</p>
 								</div>
 							</div>
 						</li>
 						<li>
-							<div className="media">
+							<div className="d-flex">
 								<img
 									className="img-fluid blur-up lazyload"
 									src="../assets/images/blog/small/3.jpg"
 									alt="Generic placeholder image"
 								/>
-								<div className="media-body align-self-center">
-									<h5>3 Dec 2020</h5>
+								<div className="flex-grow-1 align-self-center">
+									<h5>3 Dec 2022</h5>
 									<p>0 hits</p>
 								</div>
 							</div>
 						</li>
 						<li>
-							<div className="media">
+							<div className="d-flex">
 								<img
 									className="img-fluid blur-up lazyload"
 									src="../assets/images/blog/small/4.jpg"
 									alt="Generic placeholder image"
 								/>
-								<div className="media-body align-self-center">
-									<h5>4 Dec 2020</h5>
+								<div className="flex-grow-1 align-self-center">
+									<h5>4 Dec 2022</h5>
 									<p>0 hits</p>
 								</div>
 							</div>
 						</li>
 						<li>
-							<div className="media">
+							<div className="d-flex">
 								<img
 									className="img-fluid blur-up lazyload"
 									src="../assets/images/blog/small/2.jpg"
 									alt="Generic placeholder image"
 								/>
-								<div className="media-body align-self-center">
-									<h5>5 Dec 2020</h5>
+								<div className="flex-grow-1 align-self-center">
+									<h5>5 Dec 2022</h5>
 									<p>0 hits</p>
 								</div>
 							</div>
@@ -113,12 +113,12 @@ const Sidebar = () => {
 					<h4>Popular Blog</h4>
 					<ul className="popular-blog">
 						<li>
-							<div className="media">
+							<div className="d-flex">
 								<div className="blog-date">
 									<h3>03 </h3>
 									<span>may</span>
 								</div>
-								<div className="media-body align-self-center">
+								<div className="flex-grow-1 align-self-center">
 									<h5>Humour the like </h5>
 									<p>
 										it look like readable English. Many desktop publishing text.
@@ -127,12 +127,12 @@ const Sidebar = () => {
 							</div>
 						</li>
 						<li>
-							<div className="media">
+							<div className="d-flex">
 								<div className="blog-date">
 									<h3>03 </h3>
 									<span>may</span>
 								</div>
-								<div className="media-body align-self-center">
+								<div className="flex-grow-1 align-self-center">
 									<h5>Injected like</h5>
 									<p>
 										it look like readable English. Many desktop publishing text.
@@ -141,12 +141,12 @@ const Sidebar = () => {
 							</div>
 						</li>
 						<li>
-							<div className="media">
+							<div className="d-flex">
 								<div className="blog-date">
 									<h3>03 </h3>
 									<span>may</span>
 								</div>
-								<div className="media-body align-self-center">
+								<div className="flex-grow-1 align-self-center">
 									<h5>Injected like </h5>
 									<p>
 										it look like readable English. Many desktop publishing text.
@@ -155,12 +155,12 @@ const Sidebar = () => {
 							</div>
 						</li>
 						<li>
-							<div className="media">
+							<div className="d-flex">
 								<div className="blog-date">
 									<h3>03 </h3>
 									<span>may</span>
 								</div>
-								<div className="media-body align-self-center">
+								<div className="flex-grow-1 align-self-center">
 									<h5>Injected the</h5>
 									<p>
 										it look like readable English. Many desktop publishing text.

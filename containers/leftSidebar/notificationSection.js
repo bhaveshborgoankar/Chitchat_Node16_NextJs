@@ -8,12 +8,12 @@ const NotificationSection = (props) => {
     return (
         <div className={`notification-tab dynemic-sidebar custom-scroll ${props.tab === "notification" ? "active" : ""}`} id="notification">
             <div className="theme-title">
-              <div className="media">
+              <div className="d-flex">
                 <div> 
                   <h2>Notification</h2>
                   <h4>List of notification</h4>
                 </div>
-                <div className="media-body text-right">   <a className="icon-btn btn-outline-light btn-sm close-panel" href="#" onClick={() => closeLeftSide()}><X/></a></div>
+                <div className="flex-grow-1 text-end">   <a className="icon-btn btn-outline-light btn-sm close-panel" href="#" onClick={() => closeLeftSide()}><X/></a></div>
               </div>
             </div>
             <ul className="chat-main">

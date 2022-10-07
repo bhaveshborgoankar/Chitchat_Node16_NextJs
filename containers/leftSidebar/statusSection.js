@@ -9,14 +9,14 @@ const StatusSection = (props) => {
         <div className={`status-tab custom-scroll dynemic-sidebar ${props.tab === "status" ? "active" : ""}`} id="status">
             <div className="my-status-box">
               <div className="status-content">
-                <div className="media">
+                <div className="d-flex">
                   <div className="img-status">
                     <div className="user-status  bg-size" style={{ backgroundImage: `url('../assets/images/avtar/girls.jpg')`,backgroundSize:"cover",backgroundPosition:"center",display:"block" }}></div>
                     <div className="upload-img">
                       <input type="file"/>
                     </div>
                   </div>
-                  <div className="media-body">
+                  <div className="flex-grow-1">
                     <h3>my status</h3>
                     <p>tap to add status Update</p>
                   </div>

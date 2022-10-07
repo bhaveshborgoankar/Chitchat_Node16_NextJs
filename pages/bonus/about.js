@@ -21,7 +21,7 @@ const About = (props) => {
 	const settingsTestimonial = {
 		infinite: true,
 		speed: 200,
-		slidesToShow: 3,
+		slidesToShow: 4,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2000,
@@ -44,6 +44,12 @@ const About = (props) => {
 				breakpoint: 1200,
 				settings: {
 					slidesToShow: 3,
+				},
+			},
+			{
+				breakpoint: 1440,
+				settings: {
+					slidesToShow: 4,
 				},
 			},
 		],
@@ -161,11 +167,8 @@ const About = (props) => {
 										</div>
 										<div className="test-contain">
 											<h4>project manager</h4>
-											<h3>Advanced Equipment</h3>
-											<h6>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry.
-											</h6>
+											<h3>Handle Project</h3>
+											<h6>Big companies save time with securely collaborating across teams.</h6>
 											<ul className="test-icon">
 												<li>
 													<a href="https://www.google.com/">
@@ -208,12 +211,9 @@ const About = (props) => {
 											/>
 										</div>
 										<div className="test-contain">
-											<h4>project manager</h4>
-											<h3>Advanced Equipment</h3>
-											<h6>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry.
-											</h6>
+											<h4>Entrepreneur</h4>
+											<h3>Advanced Features</h3>
+											<h6>Easy to use our chat app, Attractive and clean design, with many Features</h6>
 											<ul className="test-icon">
 												<li>
 													<a href="https://www.google.com/">
@@ -257,12 +257,9 @@ const About = (props) => {
 											<i className="test-wish fa fa-heart"></i>
 										</div>
 										<div className="test-contain">
-											<h4>project manager</h4>
-											<h3>Advanced Equipment</h3>
-											<h6>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry.
-											</h6>
+											<h4>Co-founder Chitchat</h4>
+											<h3>High Definition</h3>
+											<h6>Big companies save time with securely collaborating across teams.</h6>
 											<ul className="test-icon">
 												<li>
 													<a href="https://www.google.com/">
@@ -306,12 +303,55 @@ const About = (props) => {
 											<i className="test-wish fa fa-heart"></i>
 										</div>
 										<div className="test-contain">
+											<h4>Managing Director</h4>
+											<h3>High management</h3>
+											<h6>Easy to use our chat app, Attractive and clean design, with many Features</h6>
+											<ul className="test-icon">
+												<li>
+													<a href="https://www.google.com/">
+														<img
+															className="img-fluid"
+															src="../assets/images/landing/testimonial/icon1.png"
+															alt="icon-google"
+														/>
+													</a>
+												</li>
+												<li>
+													<a href="https://twitter.com/">
+														<img
+															className="img-fluid"
+															src="../assets/images/landing/testimonial/icon2.png"
+															alt="icon-google"
+														/>
+													</a>
+												</li>
+												<li>
+													<a href="https://www.facebook.com/">
+														<img
+															className="img-fluid"
+															src="../assets/images/landing/testimonial/icon3.png"
+															alt="icon-google"
+														/>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div className="item">
+									<div className="testimonial-box mt-0">
+										<div className="test-img">
+											<img
+												className="img-fluid"
+												src="../assets/images/landing/testimonial/1.png"
+												alt="test-img"
+											/>
+											<i className="test-wish fa fa-heart"></i>
+										</div>
+										<div className="test-contain">
 											<h4>project manager</h4>
-											<h3>Advanced Equipment</h3>
-											<h6>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry.
-											</h6>
+											<h3>Handle Project</h3>
+											<h6>Big companies save time with securely collaborating across teams.</h6>
 											<ul className="test-icon">
 												<li>
 													<a href="https://www.google.com/">
@@ -355,7 +395,7 @@ const About = (props) => {
 								</button>
 								<button
 									type="button"
-									className="owl-next ml-3"
+									className="owl-next ms-3"
 									onClick={next}
 								>
 									<span ><i className="fa fa-arrow-right"></i></span>

@@ -5,7 +5,7 @@ import { Col, Container, Row } from "reactstrap";
 const Subscribe = () => {
 	return (
 		<div>
-			<section className="section-py-space subscribe-main light-bg" id="subscribe">
+			<section className="section-py-space subscribe-main" id="subscribe">
 				<Container fluid={true}>
 					<Row>
 						<Col sm="12">

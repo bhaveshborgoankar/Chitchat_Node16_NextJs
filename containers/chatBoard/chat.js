@@ -70,8 +70,8 @@ const Chat = (props) => {
           <div className='contact-details'>
             <div className='row'>
               <div className='col'>
-                <div className='media left'>
-                  <div className='media-left mr-3'>
+                <div className='d-flex left'>
+                  <div className='media-left me-3'>
                     <div className='profile online menu-trigger'>
                       <img
                         className='bg-img'
@@ -80,7 +80,7 @@ const Chat = (props) => {
                       />
                     </div>
                   </div>
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>Josephin water</h5>
                     <h6>Last Seen 5 hours</h6>
                   </div>
@@ -139,7 +139,7 @@ const Chat = (props) => {
                 </div>
               </div>
               <div className='col'>
-                <ul className='calls text-right'>
+                <ul className='calls text-end'>
                   <li>
                     <a
                       className='icon-btn btn-light button-effect'
@@ -218,7 +218,7 @@ const Chat = (props) => {
                               alt='Avatar'
                             />
                           </div>
-                          <div className='media videocall-details'>
+                          <div className='d-flex videocall-details'>
                             <div className='usersprof'>
                               <div
                                 className='profile'
@@ -239,7 +239,7 @@ const Chat = (props) => {
                                 }}
                               ></div>
                             </div>
-                            <div className='media-body'>
+                            <div className='flex-grow-1'>
                               <h5>Josephin water</h5>
                               <h6>America ,California</h6>
                             </div>
@@ -397,8 +397,8 @@ const Chat = (props) => {
           <div className='contact-details'>
             <div className='row'>
               <div className='col'>
-                <div className='media left'>
-                  <div className='media-left mr-3'>
+                <div className='d-flex left'>
+                  <div className='media-left me-3'>
                     <div
                       className='profile online menu-trigger'
                       style={{
@@ -416,7 +416,7 @@ const Chat = (props) => {
                       />
                     </div>
                   </div>
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>Tech Ninjas</h5>
                     <div className='badge badge-success'>Active</div>
                   </div>
@@ -462,7 +462,7 @@ const Chat = (props) => {
                 </div>
               </div>
               <div className='col'>
-                <ul className='calls text-right'>
+                <ul className='calls text-end'>
                   <li>
                     <a
                       className='icon-btn btn-light button-effect'
@@ -785,7 +785,7 @@ const Chat = (props) => {
                   Delete
                 </Button>
                 <Button
-                  className='button-effect ml-2'
+                  className='button-effect ms-2'
                   size='sm'
                   color='primary'
                   onClick={() => setDeleteModal(!deleteModal)}
@@ -816,7 +816,7 @@ const Chat = (props) => {
                   Block
                 </Button>
                 <Button
-                  className='button-effect ml-2'
+                  className='button-effect ms-2'
                   size='sm'
                   color='primary'
                   onClick={() => setBlockModal(!blockModal)}
@@ -837,8 +837,6 @@ const Chat = (props) => {
                   >
                     <DropdownToggle
                       tag='button'
-                      data-toggle='dropdown'
-                      // role='button'
                       aria-expanded={addMember}
                       className='icon-btn btn-sm pull-right add-grbtn outside'
                     >
@@ -853,7 +851,7 @@ const Chat = (props) => {
                       <ul className='chat-main'>
                         <li>
                           <div className='chat-box'>
-                            <div className='media'>
+                            <div className='d-flex'>
                               <div
                                 className='profile offline menu-trigger'
                                 style={{
@@ -874,7 +872,7 @@ const Chat = (props) => {
                                 <h5>Josephin water</h5>
                                 <h6>Alabma , USA</h6>
                               </div>
-                              <div className='media-body'>
+                              <div className='flex-grow-1'>
                                 <a
                                   className='icon-btn btn-outline-primary btn-sm'
                                   href='#'
@@ -889,7 +887,7 @@ const Chat = (props) => {
                         </li>
                         <li>
                           <div className='chat-box'>
-                            <div className='media'>
+                            <div className='d-flex'>
                               <div
                                 className='profile'
                                 style={{
@@ -910,7 +908,7 @@ const Chat = (props) => {
                                 <h5>Josephin water</h5>
                                 <h6>Alabma , USA</h6>
                               </div>
-                              <div className='media-body'>
+                              <div className='flex-grow-1'>
                                 <a
                                   className='icon-btn btn-outline-primary btn-sm'
                                   href='#'
@@ -925,7 +923,7 @@ const Chat = (props) => {
                         </li>
                         <li>
                           <div className='chat-box'>
-                            <div className='media'>
+                            <div className='d-flex'>
                               <div
                                 className='profile'
                                 style={{
@@ -946,7 +944,7 @@ const Chat = (props) => {
                                 <h5>Josephin water</h5>
                                 <h6>Alabma , USA</h6>
                               </div>
-                              <div className='media-body'>
+                              <div className='flex-grow-1'>
                                 <a
                                   className='icon-btn btn-outline-primary btn-sm'
                                   href='#'
@@ -961,7 +959,7 @@ const Chat = (props) => {
                         </li>
                         <li>
                           <div className='chat-box'>
-                            <div className='media'>
+                            <div className='d-flex'>
                               <div
                                 className='profile unreachable'
                                 style={{
@@ -982,7 +980,7 @@ const Chat = (props) => {
                                 <h5>Josephin water</h5>
                                 <h6>Alabma , USA</h6>
                               </div>
-                              <div className='media-body'>
+                              <div className='flex-grow-1'>
                                 <a
                                   className='icon-btn btn-outline-primary btn-sm'
                                   href='#'
@@ -1019,9 +1017,9 @@ const Chat = (props) => {
                 ></div>
               </li>
               <li className='sent'>
-                <div className='media'>
+                <div className='d-flex'>
                   <div
-                    className='profile mr-4'
+                    className='profile me-4'
                     style={{
                       backgroundImage: `url('../assets/images/contact/2.jpg')`,
                       backgroundSize: 'cover',
@@ -1029,7 +1027,7 @@ const Chat = (props) => {
                       display: 'block',
                     }}
                   ></div>
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <div className='contact-name'>
                       <h5>Josephin water</h5>
                       <h6>01:35 AM</h6>
@@ -1042,7 +1040,7 @@ const Chat = (props) => {
                         </li>
                         <li className='msg-setting-main'>
                           <h5> it should from elite auther &#128519;</h5>
-                          <div className='badge badge-success sm ml-2'> R</div>
+                          <div className='badge badge-success sm ms-2'> R</div>
                         </li>
                       </ul>
                     </div>
@@ -1050,9 +1048,9 @@ const Chat = (props) => {
                 </div>
               </li>
               <li className='replies'>
-                <div className='media'>
+                <div className='d-flex'>
                   <div
-                    className='profile mr-4'
+                    className='profile me-4'
                     style={{
                       backgroundImage: `url('../assets/images/avtar/1.jpg')`,
                       backgroundSize: 'cover',
@@ -1060,7 +1058,7 @@ const Chat = (props) => {
                       display: 'block',
                     }}
                   ></div>
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <div className='contact-name'>
                       <h5>Jony Lynetin</h5>
                       <h6>01:40 AM</h6>
@@ -1070,7 +1068,7 @@ const Chat = (props) => {
                             Sure, chitchat is best theme for chating project,
                             you can it check
                             <a
-                              className='ml-1'
+                              className='ms-1'
                               href='https://themeforest.net/user/pixelstrap/portfolio'
                               target='_blank'
                             >
@@ -1095,7 +1093,7 @@ const Chat = (props) => {
                               </a>
                             </div>
                           </div>
-                          <div className='badge badge-dark sm ml-2'> D</div>
+                          <div className='badge badge-dark sm ms-2'> D</div>
                         </li>
                       </ul>
                     </div>
@@ -1103,9 +1101,9 @@ const Chat = (props) => {
                 </div>
               </li>
               <li className='sent'>
-                <div className='media'>
+                <div className='d-flex'>
                   <div
-                    className='profile mr-4'
+                    className='profile me-4'
                     style={{
                       backgroundImage: `url('../assets/images/contact/2.jpg')`,
                       backgroundSize: 'cover',
@@ -1113,7 +1111,7 @@ const Chat = (props) => {
                       display: 'block',
                     }}
                   ></div>
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <div className='contact-name'>
                       <h5>Josephin water</h5>
                       <h6>01:42 AM</h6>
@@ -1149,7 +1147,7 @@ const Chat = (props) => {
                             ></li>
                           </ul>
                           <div className='refresh-block'>
-                            <div className='badge badge-outline-primary refresh sm ml-2'>
+                            <div className='badge badge-outline-primary refresh sm ms-2'>
                               {' '}
                               <RotateCw />
                             </div>
@@ -1161,9 +1159,9 @@ const Chat = (props) => {
                 </div>
               </li>
               <li className='replies'>
-                <div className='media'>
+                <div className='d-flex'>
                   <div
-                    className='profile mr-4'
+                    className='profile me-4'
                     style={{
                       backgroundImage: `url('../assets/images/avtar/1.jpg')`,
                       backgroundSize: 'cover',
@@ -1171,7 +1169,7 @@ const Chat = (props) => {
                       display: 'block',
                     }}
                   ></div>
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <div className='contact-name'>
                       <h5>Jony Lynetin</h5>
                       <h6>01:45 AM</h6>
@@ -1194,8 +1192,8 @@ const Chat = (props) => {
           <div className='contact-details'>
             <div className='row'>
               <div className='col'>
-                <div className='media left'>
-                  <div className='media-left mr-3'>
+                <div className='d-flex left'>
+                  <div className='media-left me-3'>
                     <div className='profile online menu-trigger'>
                       <img
                         className='bg-img'
@@ -1204,7 +1202,7 @@ const Chat = (props) => {
                       />
                     </div>
                   </div>
-                  <div className='media-body'>
+                  <div className='flex-grow-1'>
                     <h5>Family Ties</h5>
                     <h6>Last Seen 2 hours</h6>
                   </div>
@@ -1250,14 +1248,12 @@ const Chat = (props) => {
                 </div>
               </div>
               <div className='col'>
-                <ul className='calls text-right'>
+                <ul className='calls text-end'>
                   <li>
                     <a
                       className='icon-btn btn-light button-effect'
                       href='#'
                       data-tippy-content='Quick Audio Call'
-                      data-toggle='modal'
-                      data-target='#confercall'
                     >
                       <Phone />
                     </a>
@@ -1267,8 +1263,6 @@ const Chat = (props) => {
                       className='icon-btn btn-light button-effect'
                       href='#'
                       data-tippy-content='Quick Video Call'
-                      data-toggle='modal'
-                      data-target='#confvideocl'
                     >
                       <Video />
                     </a>

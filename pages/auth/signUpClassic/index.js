@@ -13,7 +13,6 @@ const Auth_SignUpClassic = () => {
 									<span
 										className="nav-link active"
 										id="login-tab"
-										data-toggle="tab"
 										role="tab"
 										aria-selected="false"
 									>
@@ -26,7 +25,6 @@ const Auth_SignUpClassic = () => {
 									<span
 										className="nav-link"
 										id="signup-tab"
-										data-toggle="tab"
 										role="tab"
 										aria-selected="true"
 									>
