@@ -16,12 +16,12 @@ const ReminderSection = (props) => {
         <div className="apps-content" id="reminder">
             <div className="reminder-main">
                 <div className="theme-title">
-                    <div className="media">
+                    <div className="d-flex">
                         <div>
                             <h2>Reminders</h2>
                             <h4>Set reminders</h4>
                         </div>
-                        <div className="media-body media-body text-right"><a className="icon-btn btn-sm btn-outline-light close-apps" href="#" onClick={() => props.smallSideBarToggle()}><X /></a></div>
+                        <div className="flex-grow-1 text-end"><a className="icon-btn btn-sm btn-outline-light close-apps" href="#" onClick={() => props.smallSideBarToggle()}><X /></a></div>
                     </div>
                 </div>
                 <div className="reminder-content tab-card "><i className="ti-alarm-clock"></i>
@@ -30,7 +30,7 @@ const ReminderSection = (props) => {
                     <Modal isOpen={reminderModal} toggle={() => setReminderModal(!reminderModal)} className="reminder-modal-main add-popup show" centered={true}>
                         <ModalHeader toggle={() => setReminderModal(!reminderModal)}>
                             Set reminder
-                        <button className="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <button className="btn-close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </ModalHeader>
                         <ModalBody>
                             <form className="form default-form">
@@ -74,7 +74,7 @@ const ReminderSection = (props) => {
                                                 <input className="form-control" type="time" />
                                             </div>
                                             <div className="custom-reminder-block">
-                                                <select>
+                                                <select className="form-select">
                                                     <option>Do not repeat</option>
                                                     <option>Weekdays (Mon-Fri)</option>
                                                     <option>Daily</option>

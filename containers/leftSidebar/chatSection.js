@@ -152,8 +152,6 @@ const ChatSection = () => {
           <li>
             <a
               href='#'
-              data-toggle='modal'
-              data-target='#msgchatModal'
               onClick={() => setChatModal(!newChatModal)}
             >
               <span onClick={() => setChatContact(!ChatContact)}>new chat</span>
@@ -168,8 +166,6 @@ const ChatSection = () => {
           <li>
             <a
               href='#'
-              data-toggle='modal'
-              data-target='#msgcallModal'
               onClick={() => setCallModal(!newCallModal)}
             >
               <span onClick={() => setChatContact(!ChatContact)}>new call</span>
@@ -184,8 +180,6 @@ const ChatSection = () => {
           <li>
             <a
               href='#'
-              data-toggle='modal'
-              data-target='#exampleModalCenter'
               onClick={() => setContactModal(!newContactModal)}
             >
               <span onClick={() => setChatContact(!ChatContact)}>
@@ -522,12 +516,12 @@ const ChatSection = () => {
         </ModalFooter>
       </Modal>
       <div className='theme-title'>
-        <div className='media'>
+        <div className='d-flex'>
           <div>
             <h2>Chat</h2>
             <h4>Start New Conversation</h4>
           </div>
-          <div className='media-body text-right'>
+          <div className='flex-grow-1 text-end'>
             <a
               className='icon-btn btn-outline-light btn-sm search contact-search'
               href='#'
@@ -613,7 +607,6 @@ const ChatSection = () => {
                       }`}
                     onClick={() => ToggleChatSubTab('direct')}
                     id='direct-tab'
-                    data-toggle='tab'
                     href='#direct'
                     role='tab'
                     aria-controls='direct'
@@ -629,7 +622,6 @@ const ChatSection = () => {
                       }`}
                     onClick={() => ToggleChatSubTab('group')}
                     id='group-tab'
-                    data-toggle='tab'
                     href='#group'
                     role='tab'
                     aria-controls='group'

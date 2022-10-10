@@ -24,12 +24,12 @@ const RecentSection = (props) => {
 	return (
 		<div className="recent">
 			<div className="theme-title">
-				<div className="media">
+				<div className="d-flex">
 					<div>
 						<h2>Recent</h2>
 						<h4>Chat from your friends &#128536;</h4>
 					</div>
-					<div className="media-body">
+					<div className="flex-grow-1">
 						<a
 							className={`icon-btn button-effect pull-right mobile-back  ${
 								sidebarToggle ? "btn-outline-primary" : "btn-outline-light"

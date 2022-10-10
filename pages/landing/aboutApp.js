@@ -62,10 +62,7 @@ const AboutApp = () => {
                   <Link href='/messenger'>
                     <a href='#'>
                       <h2>fully responsive</h2>
-                      <h4>
-                        Easy to use our chat app, Attractive Features Dark &
-                        light.
-                      </h4>
+                      <h4>each with their own specific device and optimum display size.</h4>
                     </a>
                   </Link>
                 </div>
@@ -85,14 +82,14 @@ const AboutApp = () => {
                   <Link href='/messenger'>
                     <a href='#'>
                       <h2>clean code</h2>
-                      <h4>
-                        Easy to use our chat app, Attractive Features Dark &
-                        light.
-                      </h4>
+                      <h4>written in a systematic manner so that everyone can easily interpret it.</h4>
                     </a>
                   </Link>
                 </div>
               </div>
+            </Col>
+            <Col xs="12" className="text-center">
+              <a href="/messenger" className="btn app-btn">view more  </a>
             </Col>
           </Row>
         </Container>

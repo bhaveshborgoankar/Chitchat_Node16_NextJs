@@ -23,12 +23,12 @@ const Section2 = (props) => {
 			id="favourite"
 		>
 			<div className="theme-title">
-				<div className="media">
+				<div className="d-flex">
 					<div>
 						<h2>Favourite</h2>
 						<h4>Last Recent</h4>
 					</div>
-					<div className="media-body text-right">
+					<div className="flex-grow-1 text-end">
 						{" "}
 						<a
 							className="icon-btn btn-outline-primary btn-sm m-r-15 search"
@@ -125,7 +125,7 @@ const Section2 = (props) => {
 			<ul className="chat-main">
 				<li>
 					<div className="chat-box">
-						<div className="media">
+						<div className="d-flex">
 							<div
 								className="profile offline"
 								style={{
@@ -146,7 +146,7 @@ const Section2 = (props) => {
 								<h5>Josephin water</h5>
 								<h6>Alabma , USA</h6>
 							</div>
-							<div className="media-body">
+							<div className="flex-grow-1">
 								<a
 									className="icon-btn btn-outline-primary btn-sm pull-right favourite"
 									href="#"
@@ -160,7 +160,7 @@ const Section2 = (props) => {
 				</li>
 				<li>
 					<div className="chat-box">
-						<div className="media">
+						<div className="d-flex">
 							<div
 								className="profile online"
 								style={{
@@ -181,7 +181,7 @@ const Section2 = (props) => {
 								<h5>Jony Lynetin</h5>
 								<h6>Los Angeles, California</h6>
 							</div>
-							<div className="media-body">
+							<div className="flex-grow-1">
 								<a
 									className="icon-btn btn-outline-primary btn-sm pull-right favourite"
 									href="#"
@@ -196,7 +196,7 @@ const Section2 = (props) => {
 				</li>
 				<li>
 					<div className="chat-box">
-						<div className="media">
+						<div className="d-flex">
 							<div
 								className="profile busy"
 								style={{
@@ -217,7 +217,7 @@ const Section2 = (props) => {
 								<h5>Sufiya Elija</h5>
 								<h6>Glasgow , Scotland</h6>
 							</div>
-							<div className="media-body">
+							<div className="flex-grow-1">
 								<a
 									className="icon-btn btn-outline-primary btn-sm pull-right favourite"
 									href="#"
@@ -232,7 +232,7 @@ const Section2 = (props) => {
 				</li>
 				<li>
 					<div className="chat-box">
-						<div className="media">
+						<div className="d-flex">
 							<div
 								className="profile unreachable"
 								style={{
@@ -253,7 +253,7 @@ const Section2 = (props) => {
 								<h5>Pabelo Mukrani</h5>
 								<h6>Leicester , England</h6>
 							</div>
-							<div className="media-body">
+							<div className="flex-grow-1">
 								<a
 									className="icon-btn btn-outline-primary btn-sm pull-right favourite"
 									href="#"
@@ -268,7 +268,7 @@ const Section2 = (props) => {
 				</li>
 				<li>
 					<div className="chat-box">
-						<div className="media">
+						<div className="d-flex">
 							<div
 								className="profile offline"
 								style={{
@@ -289,7 +289,7 @@ const Section2 = (props) => {
 								<h5>Josephin water</h5>
 								<h6>Alabma , USA</h6>
 							</div>
-							<div className="media-body">
+							<div className="flex-grow-1">
 								<a
 									className="icon-btn btn-outline-primary btn-sm pull-right favourite"
 									href="#"
@@ -304,7 +304,7 @@ const Section2 = (props) => {
 				</li>
 				<li>
 					<div className="chat-box">
-						<div className="media">
+						<div className="d-flex">
 							<div
 								className="profile online"
 								style={{
@@ -325,7 +325,7 @@ const Section2 = (props) => {
 								<h5>Josephin water</h5>
 								<h6>Alabma , USA</h6>
 							</div>
-							<div className="media-body">
+							<div className="flex-grow-1">
 								<a
 									className="icon-btn btn-outline-primary btn-sm pull-right favourite"
 									href="#"

@@ -7,17 +7,17 @@ const NoteSection = (props) => {
         <div className="apps-content" id="notes">
             <div className="notes-main">
             <div className="theme-title">
-                <div className="media">
+                <div className="d-flex">
                 <div>
                     <h2>Notes</h2>
                     <h4>Notes List</h4>
                 </div>
-                <div className="media-body media-body text-right"><a className="icon-btn btn-sm btn-outline-light close-apps" href="#" onClick={() => props.smallSideBarToggle()}><X/></a></div>
+                <div className="flex-grow-1 text-end"><a className="icon-btn btn-sm btn-outline-light close-apps" href="#" onClick={() => props.smallSideBarToggle()}><X/></a></div>
                 </div>
             </div>
             <form className="default-form">
                 <div className="form-group notes-content">                    
-                <select> 
+                <select className="form-select"> 
                     <option>Contact Or Channel</option>
                     <option>Weekdays (Mon-Fri)</option>
                     <option>Daily</option>
@@ -29,7 +29,7 @@ const NoteSection = (props) => {
                         <Modal isOpen={noteModal} toggle={() => setNoteModal(!noteModal)} className="notes-modal-main add-popup fade show" centered={true}>
                                 <ModalHeader toggle={() => setNoteModal(!noteModal)}>
                                     <i className="ti-bookmark-alt"></i>notes
-                                    <button className="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <button className="btn-close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 </ModalHeader>
                                 <ModalBody className="custom-scroll">
                                     <div className="card">
@@ -55,8 +55,8 @@ const NoteSection = (props) => {
             </form>
             <div className="notes-list">
                 <h6 className="mb-2 text-muted">Joshephin Water.10 Jan</h6>
-                <div className="media"><img className="img-fluid mr-3" src="../assets/images/file_icons/5.png" alt="media-img"/>
-                <div className="media-body">
+                <div className="d-flex"><img className="img-fluid me-3" src="../assets/images/file_icons/5.png" alt="media-img"/>
+                <div className="flex-grow-1">
                     <h5 className="mt-0">Joshephin Water</h5>
                 </div>
                 </div>

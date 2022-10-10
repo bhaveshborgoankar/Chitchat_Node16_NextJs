@@ -159,7 +159,7 @@ const ThemeCustomizer = () => {
 				style={customizer ? { right: "0px" } : { right: "-400px" }}
 			>
 				<div className="theme-title">
-					<div className="media">
+					<div className="d-flex">
 						<div>
 							<h2>{"Customizer"}</h2>
 							<h4>{"Real Time Customize"}</h4>
@@ -172,7 +172,7 @@ const ThemeCustomizer = () => {
 							</Button>
 						</div>
 						<div
-							className="media-body"
+							className="flex-grow-1"
 							onClick={() => openCloseCustomizer(!customizer)}
 						>
 							<a

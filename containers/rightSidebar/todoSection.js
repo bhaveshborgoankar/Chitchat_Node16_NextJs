@@ -117,12 +117,12 @@ const TodoSection = (props) => {
       <div className="apps-content" id='todo'>
         <div className='todo-main'>
           <div className='theme-title'>
-            <div className='media'>
+            <div className='d-flex'>
               <div>
                 <h2>Todo</h2>
                 <h4>to create your task</h4>
               </div>
-              <div className='media-body media-body text-right'>
+              <div className='flex-grow-1 text-end'>
                 <a
                   className='icon-btn btn-sm btn-outline-light close-apps'
                   href='#'
@@ -135,7 +135,7 @@ const TodoSection = (props) => {
           </div>
           <div className='todo-name'>
             <form className='default-form'>
-              <select className='custom-scroll' name='support[support_type]'>
+              <select className='custom-scroll form-select' name='support[support_type]'>
                 <option>All Conversations</option>
                 <option>Josephin water</option>
                 <option>Jony Lynetin</option>
@@ -219,7 +219,6 @@ const TodoSection = (props) => {
                               <DropdownToggle
                                 tag='span'
                                 role='button'
-                                data-toggle='dropdown'
                                 aria-expanded={assignTo.togglefour}
                               >
                                 <span
@@ -316,7 +315,7 @@ const TodoSection = (props) => {
             </Nav>
             <TabContent activeTab={activeTab}>
               <TabPane tabId='all' className='fade show'>
-                <div className='tab-card text-left'>
+                <div className='tab-card text-start'>
                   <div className='todo-task'>
                     <h4>Designer Discussion </h4>
                     <div className='todo-main-content'>
@@ -355,7 +354,6 @@ const TodoSection = (props) => {
                           <DropdownToggle
                             tag='span'
                             role='button'
-                            data-toggle='dropdown'
                             aria-expanded={assignTo.toggleOne}
                           >
                             <span
@@ -468,7 +466,6 @@ const TodoSection = (props) => {
                           <DropdownToggle
                             tag='span'
                              role='button'
-                            data-toggle='dropdown'
                             aria-expanded={assignTo.toggleTwo}
                           >
                             <span
@@ -581,7 +578,6 @@ const TodoSection = (props) => {
                           <DropdownToggle
                             tag='span'
                             role='button'
-                            data-toggle='dropdown'
                             aria-expanded={assignTo.toggleThree}
                           >
                             <span
@@ -766,7 +762,6 @@ const TodoSection = (props) => {
                                 <DropdownToggle
                                   tag='span'
                                   role='button'
-                                  data-toggle='dropdown'
                                   aria-expanded={assignTo.togglefour}
                                 >
                                   <span

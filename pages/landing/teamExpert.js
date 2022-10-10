@@ -20,7 +20,7 @@ const TeamExpert = () => {
 	const settings = {
 		infinite: true,
 		speed: 500,
-		slidesToShow: 3,
+		slidesToShow: 4,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2200,
@@ -55,7 +55,7 @@ const TeamExpert = () => {
 	};
 	return (
 		<div>
-			<section className="section-py-space light-bg">
+			<section className="section-py-space pb-0">
 				<div className="landing-title">
 					<div>
 						<h1>Team</h1>
@@ -76,7 +76,7 @@ const TeamExpert = () => {
 								ref={(slider) => (slider1.current = slider)}
 								{...settings}
 							>
-								<div className="item">
+																<div className="item">
 									<div className="testimonial-box mt-0">
 										<div className="test-img">
 											<img
@@ -88,11 +88,8 @@ const TeamExpert = () => {
 										</div>
 										<div className="test-contain">
 											<h4>project manager</h4>
-											<h3>Advanced Equipment</h3>
-											<h6>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry.
-											</h6>
+											<h3>Handle Project</h3>
+											<h6>Big companies save time with securely collaborating across teams.</h6>
 											<ul className="test-icon">
 												<li>
 													<a href="https://www.google.com/">
@@ -135,12 +132,101 @@ const TeamExpert = () => {
 											/>
 										</div>
 										<div className="test-contain">
-											<h4>project manager</h4>
-											<h3>Advanced Equipment</h3>
-											<h6>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry.
-											</h6>
+											<h4>Entrepreneur</h4>
+											<h3>Advanced Features</h3>
+											<h6>Easy to use our chat app, Attractive and clean design, with many Features.</h6>
+											<ul className="test-icon">
+												<li>
+													<a href="https://www.google.com/">
+														<img
+															className="img-fluid"
+															src="../assets/images/landing/testimonial/icon1.png"
+															alt="icon-google"
+														/>
+													</a>
+												</li>
+												<li>
+													<a href="https://twitter.com/">
+														<img
+															className="img-fluid"
+															src="../assets/images/landing/testimonial/icon2.png"
+															alt="icon-google"
+														/>
+													</a>
+												</li>
+												<li>
+													<a href="https://www.facebook.com/">
+														<img
+															className="img-fluid"
+															src="../assets/images/landing/testimonial/icon3.png"
+															alt="icon-google"
+														/>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div className="item">
+									<div className="testimonial-box mt-0">
+										<div className="test-img">
+											<img
+												className="img-fluid"
+												src="../assets/images/landing/testimonial/3.png"
+												alt="test-img"
+											/>
+											<i className="test-wish fa fa-heart"></i>
+										</div>
+										<div className="test-contain">
+											<h4>Co-founder Chitchat</h4>
+											<h3>High Definition</h3>
+											<h6>Big companies save time with securely collaborating across teams.</h6>
+											<ul className="test-icon">
+												<li>
+													<a href="https://www.google.com/">
+														<img
+															className="img-fluid"
+															src="../assets/images/landing/testimonial/icon1.png"
+															alt="icon-google"
+														/>
+													</a>
+												</li>
+												<li>
+													<a href="https://twitter.com/">
+														<img
+															className="img-fluid"
+															src="../assets/images/landing/testimonial/icon2.png"
+															alt="icon-google"
+														/>
+													</a>
+												</li>
+												<li>
+													<a href="https://www.facebook.com/">
+														<img
+															className="img-fluid"
+															src="../assets/images/landing/testimonial/icon3.png"
+															alt="icon-google"
+														/>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div className="item">
+									<div className="testimonial-box mt-0">
+										<div className="test-img">
+											<img
+												className="img-fluid"
+												src="../assets/images/landing/testimonial/4.png"
+												alt="test-img"
+											/>
+											<i className="test-wish fa fa-heart"></i>
+										</div>
+										<div className="test-contain">
+											<h4>Managing Director</h4>
+											<h3>High management</h3>
+											<h6>Easy to use our chat app, Attractive and clean design, with many Features.</h6>
 											<ul className="test-icon">
 												<li>
 													<a href="https://www.google.com/">
@@ -185,60 +271,8 @@ const TeamExpert = () => {
 										</div>
 										<div className="test-contain">
 											<h4>project manager</h4>
-											<h3>Advanced Equipment</h3>
-											<h6>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry.
-											</h6>
-											<ul className="test-icon">
-												<li>
-													<a href="https://www.google.com/">
-														<img
-															className="img-fluid"
-															src="../assets/images/landing/testimonial/icon1.png"
-															alt="icon-google"
-														/>
-													</a>
-												</li>
-												<li>
-													<a href="https://twitter.com/">
-														<img
-															className="img-fluid"
-															src="../assets/images/landing/testimonial/icon2.png"
-															alt="icon-google"
-														/>
-													</a>
-												</li>
-												<li>
-													<a href="https://www.facebook.com/">
-														<img
-															className="img-fluid"
-															src="../assets/images/landing/testimonial/icon3.png"
-															alt="icon-google"
-														/>
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div className="item">
-									<div className="testimonial-box mt-0">
-										<div className="test-img">
-											<img
-												className="img-fluid"
-												src="../assets/images/landing/testimonial/4.png"
-												alt="test-img"
-											/>
-											<i className="test-wish fa fa-heart"></i>
-										</div>
-										<div className="test-contain">
-											<h4>project manager</h4>
-											<h3>Advanced Equipment</h3>
-											<h6>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry.
-											</h6>
+											<h3>Handle project</h3>
+											<h6>Big companies save time with securely collaborating across teams.</h6>
 											<ul className="test-icon">
 												<li>
 													<a href="https://www.google.com/">
@@ -282,7 +316,7 @@ const TeamExpert = () => {
 								</button>
 								<button
 									type="button"
-									className="owl-next ml-3"
+									className="owl-next ms-3"
 									onClick={next}
 								>
 									<span ><i className="fa fa-arrow-right" ></i></span>

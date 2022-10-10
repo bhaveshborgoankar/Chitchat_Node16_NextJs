@@ -67,8 +67,6 @@ const Header = () => {
 											<button
 												className="navbar-toggler d-xl-none"
 												type="button"
-												data-toggle="collapse"
-												data-target="#navbarNav"
 												aria-controls="navbarNav"
 												aria-expanded={isMenu}
 												aria-label="Toggle navigation"
@@ -81,7 +79,7 @@ const Header = () => {
 												id="navbarNav"
 												isOpen={isMenu}
 											>
-												<Nav className="mr-auto" navbar>
+												<Nav className="me-auto" navbar>
 													<NavItem className="active">
 														<NavLink href="/messenger">
 															Messenger
@@ -130,7 +128,7 @@ const Header = () => {
 
 													<Dropdown nav isOpen={dropdownOpen4} toggle={toggle4}>
 														<DropdownToggle nav caret>
-															Bouns page
+															Bonus page
 														</DropdownToggle>
 														<DropdownMenu>
 															<Link href="/bonus/about">

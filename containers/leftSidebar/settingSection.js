@@ -66,12 +66,12 @@ const SettingSection = (props) => {
       id='settings'
     >
       <div className='theme-title'>
-        <div className='media'>
+        <div className='d-flex'>
           <div>
             <h2>Settings</h2>
             <h4>Change your app setting.</h4>
           </div>
-          <div className='media-body text-right'>
+          <div className='flex-grow-1 text-end'>
             {' '}
             <a
               className='icon-btn btn-outline-light btn-sm close-panel'
@@ -83,7 +83,7 @@ const SettingSection = (props) => {
           </div>
         </div>
         <div className='profile-box'>
-          <div className={`media ${profile.editStatus ? 'open' : ''}`}>
+          <div className={`d-flex ${profile.editStatus ? 'open' : ''}`}>
             <div
               className='profile'
               style={{
@@ -126,7 +126,7 @@ const SettingSection = (props) => {
                 </div>
               </form>
             </div>
-            <div className='media-body'>
+            <div className='flex-grow-1'>
               <a
                 className='icon-btn btn-outline-light btn-sm pull-right edit-btn'
                 href='#'
@@ -141,8 +141,8 @@ const SettingSection = (props) => {
       </div>
       <div className='setting-block'>
         <div className={`block ${settingTab === 'account' ? 'open' : ''}`}>
-          <div className='media'>
-            <div className='media-body'>
+          <div className='d-flex'>
+            <div className='flex-grow-1'>
               <h3>Account</h3>
             </div>
             <div className='media-right'>
@@ -182,8 +182,8 @@ const SettingSection = (props) => {
                 data-parent='#accordion'
               >
                 <div className='card-body'>
-                  <div className='media'>
-                    <div className='media-body'>
+                  <div className='d-flex'>
+                    <div className='flex-grow-1'>
                       <h5>Show Security notification</h5>
                     </div>
                     <div className='media-right'>
@@ -223,7 +223,7 @@ const SettingSection = (props) => {
                 <div className='card-body'>
                   <ul className='privacy'>
                     <li>
-                      <div className='media-body'>
+                      <div className='flex-grow-1'>
                         <h5>Last seen</h5>
                       </div>
                       <div className='media-right'>
@@ -338,8 +338,8 @@ const SettingSection = (props) => {
                 className={`collapse ${collapseShow.verfication ? 'show' : ''}`}
               >
                 <div className='card-body'>
-                  <div className='media'>
-                    <div className='media-body'>
+                  <div className='d-flex'>
+                    <div className='flex-grow-1'>
                       <h5>Enable</h5>
                     </div>
                     <div className='media-right'>
@@ -419,7 +419,7 @@ const SettingSection = (props) => {
                       placeholder=''
                     />
                   </div>
-                  <div className='text-right'>
+                  <div className='text-end'>
                     {' '}
                     <a
                       className='btn btn-outline-primary button-effect btn-sm'
@@ -502,8 +502,8 @@ const SettingSection = (props) => {
             </div>
           </div>
         </div>
-        <div className='media'>
-          <div className='media-body'>
+        <div className='d-flex'>
+          <div className='flex-grow-1'>
             <h3>Account</h3>
             <h4>Update Your Account Details</h4>
           </div>
@@ -522,8 +522,8 @@ const SettingSection = (props) => {
       </div>
       <div className='setting-block'>
         <div className={`block ${settingTab === 'chat' ? 'open' : ''}`}>
-          <div className='media'>
-            <div className='media-body'>
+          <div className='d-flex'>
+            <div className='flex-grow-1'>
               <h3>Chat</h3>
             </div>
             <div className='media-right'>
@@ -684,8 +684,8 @@ const SettingSection = (props) => {
             </li>
           </ul>
         </div>
-        <div className='media'>
-          <div className='media-body'>
+        <div className='d-flex'>
+          <div className='flex-grow-1'>
             <h3>Chat</h3>
             <h4>Control Your Chat Backup</h4>
           </div>
@@ -704,8 +704,8 @@ const SettingSection = (props) => {
       </div>
       <div className='setting-block'>
         <div className={`block ${settingTab === 'integratin' ? 'open' : ''}`}>
-          <div className='media'>
-            <div className='media-body'>
+          <div className='d-flex'>
+            <div className='flex-grow-1'>
               <h3>Integratin</h3>
             </div>
             <div className='media-right'>
@@ -722,14 +722,14 @@ const SettingSection = (props) => {
           </div>
           <ul className='integratin'>
             <li>
-              <div className='media'>
+              <div className='d-flex'>
                 <div className='media-left'>
                   <a
                     className='fb'
                     href='https://www.facebook.com/login'
                     target='_blank'
                   >
-                    <i className='fa fa-facebook mr-1'></i>
+                    <i className='fa fa-facebook me-1'></i>
                     <h5>Facebook </h5>
                   </a>
                 </div>
@@ -754,14 +754,14 @@ const SettingSection = (props) => {
               </div>
             </li>
             <li>
-              <div className='media'>
+              <div className='d-flex'>
                 <div className='media-left'>
                   <a
                     className='insta'
                     href='https://www.instagram.com/accounts/login/?hl=en'
                     target='_blank'
                   >
-                    <i className='fa fa-instagram mr-1'></i>
+                    <i className='fa fa-instagram me-1'></i>
                     <h5>instagram</h5>
                   </a>
                 </div>
@@ -786,14 +786,14 @@ const SettingSection = (props) => {
               </div>
             </li>
             <li>
-              <div className='media'>
+              <div className='d-flex'>
                 <div className='media-left'>
                   <a
                     className='twi'
                     href='https://twitter.com/login'
                     target='_blank'
                   >
-                    <i className='fa fa-twitter mr-1'></i>
+                    <i className='fa fa-twitter me-1'></i>
                     <h5>twitter </h5>
                   </a>
                 </div>
@@ -818,14 +818,14 @@ const SettingSection = (props) => {
               </div>
             </li>
             <li>
-              <div className='media'>
+              <div className='d-flex'>
                 <div className='media-left'>
                   <a
                     className='ggl'
                     href='https://accounts.google.com/signin/v2/identifier?service=mail&amp;passive=true&amp;rm=false&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ss=1&amp;scc=1&amp;ltmpl=default&amp;ltmplcache=2&amp;emr=1&amp;osid=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin'
                     target='_blank'
                   >
-                    <i className='fa fa-google mr-1'></i>
+                    <i className='fa fa-google me-1'></i>
                     <h5>google </h5>
                   </a>
                 </div>
@@ -850,10 +850,10 @@ const SettingSection = (props) => {
               </div>
             </li>
             <li>
-              <div className='media'>
+              <div className='d-flex'>
                 <div className='media-left'>
                   <a className='slc' href='#'>
-                    <i className='fa fa-slack mr-1'></i>
+                    <i className='fa fa-slack me-1'></i>
                     <h5>Slack </h5>
                   </a>
                 </div>
@@ -868,8 +868,8 @@ const SettingSection = (props) => {
             </li>
           </ul>
         </div>
-        <div className='media'>
-          <div className='media-body'>
+        <div className='d-flex'>
+          <div className='flex-grow-1'>
             <h3>Integratin</h3>
             <h4>Sync Your Other Social Account</h4>
           </div>
@@ -888,8 +888,8 @@ const SettingSection = (props) => {
       </div>
       <div className='setting-block'>
         <div className={`block ${settingTab === 'help' ? 'open' : ''}`}>
-          <div className='media'>
-            <div className='media-body'>
+          <div className='d-flex'>
+            <div className='flex-grow-1'>
               <h3>Help</h3>
             </div>
             <div className='media-right'>
@@ -932,13 +932,13 @@ const SettingSection = (props) => {
             <li>
               <h5>
                 {' '}
-                <a href='#'>2019 - 20 Powered by Pixelstrap</a>
+                <a href='#'>2022 - 23 Powered by Pixelstrap</a>
               </h5>
             </li>
           </ul>
         </div>
-        <div className='media'>
-          <div className='media-body'>
+        <div className='d-flex'>
+          <div className='flex-grow-1'>
             <h3>Help</h3>
             <h4>You are Confusion, Tell me</h4>
           </div>

@@ -44,7 +44,7 @@ const LeftSidebar = (props) => {
 										</div>
 										<div className="blog-right">
 											<div>
-												<h6>25 January 2021</h6>
+												<h6>25 January 2022</h6>
 												<Link href="/blog/detailSidebar">
 													<h4>
 														you how all this mistaken idea of denouncing
@@ -83,7 +83,7 @@ const LeftSidebar = (props) => {
 										</div>
 										<div className="blog-right">
 											<div>
-												<h6>25 January 2021</h6>
+												<h6>25 January 2022</h6>
 												<Link href="/blog/detailSidebar">
 													<h4>
 														you how all this mistaken idea of denouncing
@@ -124,7 +124,7 @@ const LeftSidebar = (props) => {
 										</div>
 										<div className="blog-right">
 											<div>
-												<h6>25 January 2021</h6>
+												<h6>25 January 2022</h6>
 												<Link href="/blog/detailSidebar">
 													<h4>
 														you how all this mistaken idea of denouncing
@@ -163,7 +163,7 @@ const LeftSidebar = (props) => {
 										</div>
 										<div className="blog-right">
 											<div>
-												<h6>25 January 2021</h6>
+												<h6>25 January 2022</h6>
 												<Link href="/blog/detailSidebar">
 													<h4>
 														you how all this mistaken idea of denouncing
@@ -204,7 +204,7 @@ const LeftSidebar = (props) => {
 										</div>
 										<div className="blog-right">
 											<div>
-												<h6>25 January 2021</h6>
+												<h6>25 January 2022</h6>
 												<Link href="/blog/detailSidebar">
 													<h4>
 														you how all this mistaken idea of denouncing
@@ -243,7 +243,7 @@ const LeftSidebar = (props) => {
 										</div>
 										<div className="blog-right">
 											<div>
-												<h6>25 January 2021</h6>
+												<h6>25 January 2022</h6>
 												<Link href="/blog/detailSidebar">
 													<h4>
 														you how all this mistaken idea of denouncing
